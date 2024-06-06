@@ -1,13 +1,13 @@
 // import {CreateLetter, UpdateLetter} from '../Interfaces/letter.interface'
 
-// const API = 'https://backendportafolio-6o0je5xop-cesargarciafs-projects.vercel.app/api'
+// const API = 'http://localhost:5000/api'
 
 // export const createLetterRequest = (letter:CreateLetter) =>
 //     fetch(`${API}/letters`, {
 //             method: 'POST',
 //             body: new URLSearchParams(letter as any),
 //             headers:{
-//                 'Content-Type' : 'application/json'
+//                 'Contente-Type' : 'application/json'
 //             }
 //         })
 
@@ -30,7 +30,6 @@
 //             }
 //         }
 //     )
-
 import { CreateLetter, UpdateLetter } from '../Interfaces/letter.interface'
 
 const API = 'https://backendportafolio-6o0je5xop-cesargarciafs-projects.vercel.app/api/letters'
@@ -44,7 +43,7 @@ export const createLetterRequest = (letter: CreateLetter) =>
         }
     })
 
-export const getLetterRequest = () => fetch(API)
+export const getLetterrRequest = () => fetch(API)
 
 export const deleteLetterRequest = (id: string) =>
     fetch(`${API}/${id}`, {
