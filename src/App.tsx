@@ -20,14 +20,14 @@ function App()
         </div>
       </div>
       <div className="container mx-auto px-8">
-        <Navbar/>
+        {/* <Navbar/>
         <Landing/>
         <AboutMe/>
         <Tecnologias/>
         <Experiencia/>
         <Proyectos/>
         <YouTubeVideos/>
-        <LetterForm/>
+        <LetterForm/> */}
         <LetterProvider>
             <BrowserRouter>
               <Routes>
