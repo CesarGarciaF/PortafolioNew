@@ -8,7 +8,7 @@ interface Props
 }
 export default function LetterItem({letter} : Props) {
 
-const {deleteLetter, updateLetter} = useLetter();
+const {deleteLetter} = useLetter();
 
 return (
     <div key = {letter._id}
