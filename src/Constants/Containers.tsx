@@ -1,10 +1,6 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import dida from "../assets/projects/didactik.png";
 
-export const HERO_CONTENT: string = 
-`Soy una persona ágil en los momentos de estrés y me gusta desarrollar páginas web full-stack, tengo conocimientos basicos/intermedios de
+export const HERO_CONTENT: string = `Soy una persona ágil en los momentos de estrés y me gusta desarrollar páginas web full-stack, tengo conocimientos basicos/intermedios de
 tecnologías como HTML/CSS, Java, C# y frameworks cómo React y Angular entre otras tecnologías como Express.Js, NodeJs, NestJs y base de datos
 como SQL y MongoDB.`;
 
@@ -30,31 +26,31 @@ export const EXPERIENCES: Experience[] =
 [
   {
     year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    role: "Estudiante de Ingenieria",
+    company: "UTS",
+    description: `Actualmente estoy cursando la ingenieria de la carrera de software en la cual
+    vemos diversas materias pero al ver las practicas en el TSU, se ven bastantes materias de desarrollo
+    de proyectos.`,
+    technologies: ["Android Studio", "React", "MongoDB", "SQL"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "2021 - 2023",
+    role: "Tecnico Superior Universitario",
+    company: "UTS",
+    description: `En este periodo curse el grado de tecnico superior universitario en el cual
+    nos sembraron las bases de la programación y aprendimos a desarrollar todo tipo de aplicaciones
+    web y moviles, además de llevar materias metodologicas y matematicas entre otro tipo de ellas.`,
+    technologies: ["HTML", "CSS", "C#", "mySQL", "Express.js", "Java", "Angular", "Xamarin"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "2018 - 2021",
+    role: "Tecnico en Administración para el Emprendimiento Agropecuario",
+    company: "CBTA 197",
+    description: `El periodo de preparatorio aprendí a llevar a cabo procesos administrativos
+    desde el punto de vista de un empleado de una empresa, hasta emprender negocios de alta 
+    calidad con los recursos necesarios, también aprendi habilidades basicas de contabilidad para
+    sustentar un negocio propio o de alto rango.`,
+    technologies: ["Word", "PowerPoint", "Excel"],
   },
 ];
 
@@ -69,32 +65,11 @@ type Project =
 export const PROJECTS: Project[] = 
 [
   {
-    title: "E-Commerce Website",
-    image: project1,
+    title: "DIDACTI-K",
+    image: dida,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Plataforma creada para docentes para la creación de planeaciónes con los nuevos campos formativos.",
+    technologies: ["Angular", "Node.js", "MongoDB", "Express.js"],
   },
 ];
 

@@ -12,10 +12,18 @@ return (
             <img className='mx-2 w-120' src={logoMine} alt='Mi Logo'/>
         </div>
         <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
-            <FaGithub/>
-            <FaYoutube/>
-            <FaInstagram/>
-            <FaFacebook/>
+            <a href='https://github.com/CesarGarciaF'>
+                <FaGithub />
+            </a>
+            <a href='https://www.youtube.com/channel/UCwCJeZGTpQqW5IT71FNZr-g'>
+                <FaYoutube/>
+            </a>
+            <a href='https://www.instagram.com/cesar_garcia_felix/'>
+                <FaInstagram/>
+            </a>
+            <a href='https://www.facebook.com/cesar.garciafelix.5?locale=es_LA'>
+                <FaFacebook/>
+            </a>
         </div>
     </nav>
 )
