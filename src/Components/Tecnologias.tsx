@@ -10,7 +10,7 @@ import { motion } from "framer-motion"
 import { Variants } from 'framer-motion';
 
 export const iconVariants = (duracion: number): Variants => ({
-    initial: { y: -10 },  // Aquí estaba el error, "intitial" corregido a "initial"
+    initial: { y: -10 }, 
     animate: {
         y: [10, -10],
         transition: {
